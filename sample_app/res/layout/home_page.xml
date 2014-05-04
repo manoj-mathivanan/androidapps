@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/flightDetails"
+        android:layout_width="100dip"
+        android:layout_height="80dip"
+        android:src="@drawable/book" android:clickable="true" android:layout_marginTop="40sp" android:layout_marginLeft="100sp" android:focusable="true" android:onClick="booking"/>
+
+    <ImageView
+        android:id="@+id/travelAgencies"
+        android:layout_width="100dip"
+        android:layout_height="80dip"
+        android:src="@drawable/travelagency" android:layout_marginTop="40sp" android:layout_marginLeft="100sp" android:focusable="true" android:clickable="true" android:onClick="travelAgencies"/>
+     
+     <Button android:id="@+id/ImageView"  android:layout_marginTop="40sp" android:layout_marginLeft="100sp" android:text="Download" android:layout_height="wrap_content" android:layout_width="wrap_content" />
+     
+        
+</LinearLayout>

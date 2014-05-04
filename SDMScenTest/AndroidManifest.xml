@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.sap.android.sdmscen.test"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8" />
+    <instrumentation android:targetPackage="com.sap.android.sdmscen.test" 
+    	android:name="android.test.InstrumentationTestRunner" />
+   <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.VIBRATE">
+	 
+	</uses-permission>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />   
+	 <uses-permission android:name="android.permission.READ_LOGS"></uses-permission>
+	 <permission android:name="com.sap.android.sdmscen.test.permission.C2D_MESSAGE"   android:protectionLevel="signature" />
+    <uses-permission android:name="com.sap.android.sdmscen.test.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <application android:icon="@drawable/icon" android:label="Android ODP Automation">
+
+    <uses-library android:name="android.test.runner" />
+    <activity android:name="com.sap.android.activity.TestActivity" android:launchMode="standard">
+    	<intent-filter>
+	    	<action android:name="android.intent.action.MAIN" />
+	        <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+     <activity android:name="com.sap.android.activity.TestScenarios" android:launchMode="standard">
+    	<intent-filter>
+	    	<action android:name="android.intent.action.MAIN" />
+	        <category android:name="android.intent.category.LAUNCHER" />
+	        
+        </intent-filter>
+    </activity>
+   
+<receiver android:name = "com.sybase.mo.GCMReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+   <!-- Receive the actual message -->
+   <intent-filter>
+	<action android:name="com.google.android.c2dm.intent.RECEIVE" />
+	<category android:name="com.sap.android.sdmscen.test" />
+   </intent-filter>
+   <!-- Receive the registration id -->
+   <intent-filter>
+	 <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+	 <category android:name="com.sap.android.sdmscen.test" />
+   </intent-filter>
+</receiver>
+
+    
+    </application>
+</manifest>

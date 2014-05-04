@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >
+  <LinearLayout android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/butQR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scan QR Code"
+        
+        android:textSize="18sp" />
+
+  </LinearLayout>
+
+  <TextView
+      android:id="@+id/textscore"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="30dp"
+      
+      android:text="Your current score:"
+      android:textAppearance="?android:attr/textAppearanceLarge" />
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="10dp"
+      
+      android:orientation="vertical" >
+  </LinearLayout>
+
+  <TextView
+      android:id="@+id/txtView2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Today's leaderboard"
+      
+      android:textSize="30dp"
+      android:textAppearance="?android:attr/textAppearanceLarge" />
+
+     <ListView
+         android:id="@android:id/list"
+         android:layout_width="match_parent"
+         android:layout_height="256dp"
+         android:layout_weight="0.97"
+         android:drawSelectorOnTop="false"
+         android:scrollbars="vertical" />
+
+</LinearLayout>

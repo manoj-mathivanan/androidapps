@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:paddingBottom="0dp" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.24" >
+
+       <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingBottom="0dp"
+    android:background="#000000" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="12dp" >
+    </LinearLayout>
+
+   
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="12dp" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp" >
+
+            <ImageView
+                android:id="@+id/ImageView01"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.53"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:src="@drawable/logo_lee" />
+
+            <ImageView
+                android:id="@+id/ImageView02"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.53"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:src="@drawable/logo_manu" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="12dp" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp" >
+
+            <ImageView
+                android:id="@+id/ImageView03"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.53"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:src="@drawable/logo_base" />
+
+            <ImageView
+                android:id="@+id/ImageView04"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.53"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:src="@drawable/samsungs_2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp" >
+
+            <ImageView
+                android:id="@+id/ImageView05"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.53"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:src="@drawable/logo_woodlands" />
+
+            <ImageView
+                android:id="@+id/ImageView06"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.53"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:src="@drawable/wrangler" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp" >
+
+            <ImageView
+                android:id="@+id/ImageView07"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.53"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:src="@drawable/pepejeans" />
+
+            <ImageView
+                android:id="@+id/ImageView08"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.53"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:src="@drawable/logo_tissot" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

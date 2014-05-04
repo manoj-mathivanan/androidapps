@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="/Users/i074667/Desktop/android apps/libs/ClientLib.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/i074667/Desktop/android apps/libs/poi-3.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/i074667/Desktop/android apps/libs/sap-e2etrace.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/i074667/Desktop/android apps/libs/SDMCache-2.3.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/i074667/Desktop/android apps/libs/SDMCommon-2.3.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/i074667/Desktop/android apps/libs/SDMConnectivity-2.3.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/i074667/Desktop/android apps/libs/SDMParser-2.3.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/i074667/Desktop/android apps/libs/SDMPersistence-2.3.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/i074667/Desktop/android apps/libs/SMPRestClient-2.3.3.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+ <LinearLayout
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignParentLeft="true"
+     android:orientation="vertical" >
+
+            <ListView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.06"
+                android:divider="#ff8f40"
+                android:dividerHeight="1px"
+                android:drawSelectorOnTop="true" android:id="@android:id/list" android:choiceMode="multipleChoice" android:clickable="true">
+            </ListView>
+
+          
+             <Button
+                    android:id="@+id/btnRun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Run"
+                     />
+
+             <Button
+                 android:id="@+id/btnPwdPolicy"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:onClick="GetNewPassword"
+                 android:text="Pwd Policy" />
+            
+        </LinearLayout>
+</RelativeLayout>

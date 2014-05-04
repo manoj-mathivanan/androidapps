@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="2" >
+
+    <TableRow android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15px"
+            android:text="Server IP" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_alignBaseline="@id/textView1"
+            android:layout_span="3"
+            android:editable="true" />
+    </TableRow>
+
+    <TableRow android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView1"
+            android:padding="15px"
+            android:text="Comp ID"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_alignBaseline="@id/textView2"
+            android:layout_span="3"
+            android:editable="true"
+            android:visibility="gone" />
+    </TableRow>
+
+    <TableRow android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView2"
+            android:padding="15px"
+            android:text="User Name"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_alignBaseline="@id/textView3"
+            android:layout_span="3"
+            android:editable="true"
+            android:visibility="gone" />
+    </TableRow>
+
+    <TableRow android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView3"
+            android:padding="15px"
+            android:text="Password"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_alignBaseline="@id/textView4"
+            android:layout_span="3"
+            android:editable="true"
+            android:visibility="gone" />
+    </TableRow>
+
+    <TableRow android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView4"
+            android:padding="15px"
+            android:text="Port No"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_span="3"
+            android:visibility="gone" />
+    </TableRow>
+
+    <TableRow android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/textView6"
+            android:padding="15px"
+            android:text="Security"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_span="3"
+            android:visibility="gone" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100sp"
+        android:layout_marginRight="100sp"
+        android:text="Register" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100sp"
+        android:layout_marginRight="100sp"
+        android:text="DeRegister" />
+
+</TableLayout>

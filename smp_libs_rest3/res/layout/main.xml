@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:stretchColumns="2">
+  <TableRow>
+   <TextView android:id="@+id/IPLabel"
+            android:text="IP"/>
+           <EditText 
+             android:id="@+id/IP"
+             android:layout_span="4"
+             android:text="http://10.66.128.223:5005"/>
+  </TableRow>
+  
+      <TableRow>
+   <TextView android:id="@+id/AppIDLabel"
+            android:text="APPname"/>
+           <EditText 
+             android:id="@+id/sec_config"
+             android:layout_span="3"
+             android:text="SSO"/>
+  </TableRow>
+  
+  <TableRow>        
+               <TextView android:id="@+id/AppNameLabel"
+            android:text="App connection ID"/>
+           <EditText 
+             android:id="@+id/App_Name"
+             android:layout_span="3"
+             android:text="com.sap.travelapp"/>
+             </TableRow>   
+             
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/auth"
+                    android:text="Autherization" />
+
+                <EditText
+                    android:id="@+id/authtext"
+                    android:layout_span="3"
+                    android:ems="10"
+                    android:text="perfbb:perfbb" />
+
+             <EditText
+                 android:id="@+id/captchaText"
+                 android:layout_span="3"
+                 android:ems="10"
+                 android:visibility="invisible" >
+
+                 <requestFocus />
+             </EditText>
+
+             </TableRow>
+
+            <Button
+                android:id="@+id/Onboard"
+                android:text="Onboard New" />
+
+            <ImageView
+                android:id="@+id/subscribe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_launcher" />
+    
+             <TableRow>
+
+                 <EditText
+                     android:id="@+id/Port"
+                     android:layout_span="3"
+                     android:ems="10"
+                     android:visibility="invisible" />
+
+             </TableRow> 
+               
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/captchaLabel"
+                    android:text="Captcha"
+                    android:visibility="invisible" />
+                    
+                    </TableRow>
+
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="URL re-Write"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/useappid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Use APPID to Enter"
+                android:visibility="invisible" />
+
+</TableLayout>

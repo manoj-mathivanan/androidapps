@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+     android:scrollbars="vertical" 
+     android:layout_height="fill_parent" 
+     android:layout_width="fill_parent">
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:stretchColumns="2">
+  
+   <TableRow>
+   <TextView android:id="@+id/Number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AgencyNum"
+            android:padding="15px"/>
+           <EditText 
+             android:id="@+id/numerText"
+             android:layout_span="3"
+              android:editable="false"
+             android:layout_alignBaseline="@id/Number"/>
+  </TableRow>
+  <TableRow>
+   <TextView android:id="@+id/Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:padding="15px"/>
+           <EditText 
+             android:id="@+id/nameText"
+             android:layout_span="3"
+              android:editable="false"
+             android:layout_alignBaseline="@id/Name"/>
+  </TableRow>
+  
+  <TableRow>        
+               <TextView android:id="@+id/Street"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Street"
+            android:layout_below="@id/Name"
+            android:padding="15px"/>
+           <EditText 
+             android:id="@+id/streetText"
+             android:layout_span="3"
+              android:editable="false"
+             android:layout_alignBaseline="@id/Street"/>
+             </TableRow>   
+            <TableRow>  
+             <TextView android:id="@+id/City"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City"
+            android:layout_below="@id/Street"
+            android:padding="15px"/>
+           <EditText 
+             android:id="@+id/cityText"
+             android:layout_span="3"
+              android:editable="false"
+             android:layout_alignBaseline="@id/City"/>
+             </TableRow>    
+               <TableRow>  
+              <TextView android:id="@+id/Country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Country"
+            android:layout_below="@id/City"
+            android:padding="15px"/>
+           <EditText 
+             android:id="@+id/countryText"
+             android:layout_span="3"
+             android:editable="false"
+             android:layout_alignBaseline="@id/Country"/>
+             </TableRow> 
+               <TableRow>
+  <TextView android:id="@+id/Phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PHONE"
+            android:layout_below="@id/Country"
+            android:padding="15px"/>
+           <EditText 
+             android:id="@+id/phoneText"
+             android:layout_span="3"/></TableRow>   
+               <TableRow>
+            <TextView android:id="@+id/Url"
+            
+            android:text="URL "
+            android:padding="15px">
+            </TextView>  
+             <EditText 
+             android:id="@+id/urlText"
+             android:layout_span="3"/></TableRow>   
+               <TableRow>   
+            
+                    <Button android:id="@+id/login"
+                    android:layout_column="2"
+                    android:text="Update"/>
+                    <Button android:id="@+id/cancel"
+                    
+                    android:text="Cancel"/>
+                    </TableRow>
+
+               <Button
+                   android:id="@+id/delete"
+                   android:layout_column="2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Delete" android:layout_marginLeft="70sp" android:layout_marginRight="80sp"/>
+
+</TableLayout>
+</ScrollView>

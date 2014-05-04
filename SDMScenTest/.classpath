@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="libs/AfariaSLL.jar"/>
+	<classpathentry kind="lib" path="libs/ClientLib.jar"/>
+	<classpathentry kind="lib" path="libs/gcm.jar"/>
+	<classpathentry kind="lib" path="libs/SDMCache-2.2.2.jar"/>
+	<classpathentry kind="lib" path="libs/SDMCommon-2.2.2.jar"/>
+	<classpathentry kind="lib" path="libs/SDMConnectivity-2.2.2.jar"/>
+	<classpathentry kind="lib" path="libs/SDMParser-2.2.2.jar"/>
+	<classpathentry kind="lib" path="libs/SDMPersistence-2.2.2.jar"/>
+	<classpathentry kind="lib" path="libs/sup-client-util.jar"/>
+	<classpathentry kind="lib" path="libs/SUPProxyClient-2.2.2.jar"/>
+	<classpathentry kind="lib" path="libs/SybaseDataProvider.apk"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
